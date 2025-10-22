@@ -21,7 +21,8 @@ El proyecto debe ser entregado por grupos e incluir los siguientes elementos:
 
 - **Proyecto estructurado en git que contenga:** 
   - **Código** Código funcional y modular (nivel-preproducción). 
-  - **Informe técnico (pdf):** Debe contener:
+  - **Informe técnico (pdf):** 
+    Debe contener
     - Objetivo del proyecto
     - Arquitectura general (diagrama de flujo + descripción de componentes)
     - Implementación técnica (herramientas, módulos clave)
@@ -32,7 +33,8 @@ El proyecto debe ser entregado por grupos e incluir los siguientes elementos:
 
   - **README** orientativo. 
 
-- **Presentación final (clase 8):** Duración de 15 minutos, enfocada en:
+- **Presentación final de 15 minutos en la clase 8:** 
+  Enfocada en
   - Análisis de los resultados más relevantes, con énfasis en las métricas utilizadas.
   - Visualizaciones del modelo.
   - Explicación de cómo el modelo puede aplicarse en un contexto real.
