@@ -15,58 +15,39 @@
 
 ## **Forma de Evaluación**
 
-### 1. **Entrega de Trabajos Prácticos (Obligatoria - Individual)**
-
-La entrega de los trabajos prácticos es obligatoria y debe ser realizada de manera individual. Los plazos de entrega son los siguientes:
-
-- **Ejercicio 1:** Debe ser entregado antes de la **Clase 3**.
-- **Ejercicio 2:** Debe ser entregado antes de la **Clase 4**.
-- **Ejercicio 3:** Opcional.
-- **Ejercicio 4:** Opcional.
-
----
-
-### 2. **Entrega del Proyecto (Obligatoria - Grupal)**
+### 1. **Entrega del Proyecto (Obligatoria - Grupal)**
 
 El proyecto debe ser entregado por grupos e incluir los siguientes elementos:
 
 - **Proyecto estructurado en git que contenga:** 
-  - **Código** funcional y estructurado (nivel-preproducción). 
-  - **Informe técnico:** Debe contener:
-    - Los pasos seguidos en el desarrollo del proyecto.
-    - Decisiones de diseño del modelo.
-    - Análisis detallado de los resultados.
-    - Visualizaciones generadas.
+  - **Código** Código funcional y modular (nivel-preproducción). 
+  - **Informe técnico (pdf):** Debe contener:
+    - Objetivo del proyecto
+    - Arquitectura general (diagrama de flujo + descripción de componentes)
+    - Implementación técnica (herramientas, módulos clave)
+    - Evaluación (métricas de desempeño de modelos, agentes y RAG)
+    - Resultados y ejemplos
+    - Conclusiones y mejoras futuras
+    - Planificación del equipo (tabla con tareas, responsables y estado)
+
   - **README** orientativo. 
 
-- **Presentación final:** Duración de 15 minutos, enfocada en:
+- **Presentación final (clase 8):** Duración de 15 minutos, enfocada en:
   - Análisis de los resultados más relevantes, con énfasis en las métricas utilizadas.
   - Visualizaciones del modelo.
   - Explicación de cómo el modelo puede aplicarse en un contexto real.
 
-El código y el informe deben ser entregados a más tardar el **viernes siguiente a la clase 7**. 
+El código y el informe deben ser entregados a más tardar el dia de **la clase 7**. 
 
----
-
-## **Evaluación del Proyecto**
-
-El proyecto será evaluado de acuerdo a los siguientes criterios:
-
-| **Criterio**                     | **Ponderación** |
-|-----------------------------------|-----------------|
-| **Claridad técnica del informe**          | 25%             |
-| **Calidad del código**            | 25%             |
-| **Evaluación y análisis**         | 25%             |
-| **Presentación y visualización** | 25%             |
-
+### 2. Encuesta Intragrupal. 
 
 ---
 
 #### **Cálculo de la Evaluación Global**
 
-La evaluación final se calculará mediante la siguiente fórmula:
+En la evaluación final se tendrán en cuenta tanto los resultados de la encuesta como la presentación del proyecto final.
 
-**Evaluación Global = 0.4 * Prácticas + 0.6 * Proyecto**
+
 
 
 ## Bibliografía
