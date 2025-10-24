@@ -1,0 +1,6 @@
+{
+  "project_name": "VIT-project",
+  "interface": ["none", "fastapi", "streamlit"],
+  "enable_tests": ["yes", "no"],
+  "add_examples": ["yes", "no"]
+}
