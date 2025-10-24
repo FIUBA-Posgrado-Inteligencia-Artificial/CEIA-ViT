@@ -1,0 +1,6 @@
+{
+  "name": "vit-vision-model",
+  "type": "vision-classifier",
+  "inputs": [],
+  "outputs": []
+}
