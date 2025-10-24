@@ -1,8 +1,3 @@
-Perfecto. A continuación te dejo el **README reescrito y adaptado** específicamente para tu plantilla actual de **proyectos ViT (Vision Transformer)**.
-Sin íconos, claro, y con un tono claro, técnico y directo como el original.
-
----
-
 # Plantilla Cookiecutter para proyectos ViT (Vision Transformer)
 
 Esta plantilla permite crear, de forma rápida y ordenada, la estructura base de un proyecto orientado a entrenamiento o fine-tuning de modelos **Vision Transformer (ViT)** en PyTorch.
@@ -124,7 +119,3 @@ Crea las carpetas condicionalmente según tus elecciones, agrega `.gitkeep` dond
 
 Esta plantilla no busca definir un flujo de trabajo completo, sino brindar un **punto de partida coherente y reutilizable** para cualquier proyecto de Vision Transformer.
 Con un par de preguntas iniciales, tenés un esqueleto limpio, reproducible y preparado para crecer con tu proyecto.
-
----
-
-¿Querés que te genere también una versión corta del README (para dejar dentro de los proyectos generados)? Podría resumirlo a 10 líneas y una lista de carpetas básicas.
