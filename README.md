@@ -20,7 +20,7 @@
 El proyecto debe ser entregado por grupos e incluir los siguientes elementos:
 
 - **Proyecto estructurado en git que contenga:** 
-  - **Código** Código funcional y modular (nivel-preproducción). 
+  - **Código** funcional y modular (nivel-preproducción). 
   - **Informe técnico (pdf):** 
     Debe contener
     - Objetivo del proyecto
