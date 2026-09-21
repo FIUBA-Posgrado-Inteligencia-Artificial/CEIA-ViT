@@ -1,0 +1,1 @@
+"""Utilidades compartidas del ejercicio."""
