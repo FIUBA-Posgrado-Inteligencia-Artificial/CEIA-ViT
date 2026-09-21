@@ -1,4 +1,4 @@
-"""Lectura de parámetros externos, sin valores duplicados en el código."""
+"""Lectura de los parámetros del experimento desde un archivo JSON."""
 import json
 from dataclasses import dataclass
 from pathlib import Path

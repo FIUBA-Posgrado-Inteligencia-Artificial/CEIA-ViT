@@ -7,7 +7,7 @@ from transformers import AutoImageProcessor
 
 
 def setup_device(seed):
-    """Inicializa las mismas semillas que la notebook original y elige GPU o CPU."""
+    """Inicializa las semillas para reproducibilidad y elige GPU o CPU."""
     # Las semillas permiten repetir el experimento
     random.seed(seed)
     np.random.seed(seed)
