@@ -1,0 +1,19 @@
+{
+  "model_name": "facebook/deit-tiny-patch16-224",
+  "dataset_name": "beans",
+  "train_split": "train",
+  "validation_split": "validation",
+  "test_split": "test",
+  "train_samples": 300,
+  "validation_samples": 100,
+  "test_samples": 100,
+  "epochs": 2,
+  "batch_size": 8,
+  "learning_rate": 5e-05,
+  "seed": 42,
+  "metric_average": "macro",
+  "weighted_average": "weighted",
+  "experiment_name": "TP4-ViT",
+  "run_name": "deit-tiny-baseline",
+  "num_examples": 3
+}

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tp4-vit-mlflow"
+version = "0.1.0"
+description = "Ejercicio didáctico de fine-tuning de ViT con MLflow"
+requires-python = ">=3.10"
+dependencies = [
+    "torch", "transformers", "datasets", "mlflow", "matplotlib", "numpy",
+    "seaborn", "scikit-learn", "psutil", "nvidia-ml-py",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src", "training", "inference"]
+namespaces = false
