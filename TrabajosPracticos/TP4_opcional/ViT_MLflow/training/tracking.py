@@ -16,7 +16,7 @@ def run_experiment(
     validation_loader, test_loader, classes, sample_figure,
     distribution_figure, class_distribution,
 ):
-    """Entrena, selecciona por validation y registra los resultados originales en MLflow."""
+    """Entrena, selecciona por validation y registra los resultados en MLflow."""
     mlflow.set_experiment(config.experiment_name)
 
     # MLflow registra CPU, memoria y GPU durante la ejecución

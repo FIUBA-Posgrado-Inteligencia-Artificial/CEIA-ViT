@@ -58,7 +58,7 @@ def plot_confusion(y_true, y_pred, classes):
 
 
 def plot_learning_curves(history):
-    """Grafica loss y accuracy con el estilo original."""
+    """Grafica loss y accuracy de train, validation y test por época."""
     curve_figure, curve_axes = plt.subplots(1, 2, figsize=(10, 4))
     curve_axes[0].plot(history["train_loss"], marker="o", label="Train")
     curve_axes[0].plot(history["validation_loss"], marker="o", label="Validation")

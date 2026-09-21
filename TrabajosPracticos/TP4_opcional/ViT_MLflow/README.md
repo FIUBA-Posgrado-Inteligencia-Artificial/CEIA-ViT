@@ -21,11 +21,6 @@ Este módulo usa `train_epoch` de `training/engine.py` y `evaluate` de
 desde una notebook para estudiar cada etapa. No se ejecuta código al importarlas.
 
 `pyproject.toml` instala `src`, `training` e `inference` en modo editable.
-Después de cambiar la estructura, reiniciar el kernel y ejecutar la celda de instalación.
-
-Se conservan las cinco figuras, las métricas, el orden de entrenamiento y los
-artefactos MLflow del ejercicio original. Las salidas guardadas son las originales,
-no una nueva ejecución. No se garantiza identidad numérica entre distintos entornos.
 
 Para consultar las corridas, ejecutar desde `ViT_MLflow/`:
 
@@ -33,12 +28,3 @@ Para consultar las corridas, ejecutar desde `ViT_MLflow/`:
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 ```
 
-`mlflow.db` y `mlruns/` están dentro de esta carpeta. El historial anterior se
-conservó y sus rutas de artefactos se actualizaron a la nueva ubicación.
-Las nuevas ejecuciones deben iniciarse con esta carpeta como directorio de trabajo.
-
-Validación de la refactorización: comparación con la implementación original usando
-datos sintéticos y un modelo pequeño. Coincidieron el muestreo, los pesos finales,
-las métricas, los reportes, los registros de MLflow y los píxeles de las cinco figuras.
-También se verificó una corrida real de MLflow en almacenamiento temporal.
-No se repitió el entrenamiento completo de DeiT-Tiny sobre Beans.
